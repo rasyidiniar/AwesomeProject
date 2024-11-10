@@ -2,21 +2,29 @@ import * as React from 'react';
 import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import Profil from './App';
+import Mahasiswa from './Mahasiswa';
+import { faUser, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
+import { WebView } from 'react-native-webview';
 
 function HomeScreen() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Home!</Text>
-    </View>
+      <Profil/>
   );
 }
 
-function SettingsScreen() {
+function DataMahasiswaScreen() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Settings!</Text>
-    </View>
+    <Mahasiswa/>
+  );
+}
+
+function WebScreen() {
+  return (
+    <WebView
+        source={{ uri: 'https://github.com/rasyidiniar' }}
+      />
   );
 }
 
@@ -25,30 +33,33 @@ const Tab = createBottomTabNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      {/* <Tab.Navigator screenOptions={{ headerStyle: { backgroundColor: '#007AFF' } }}> */}
-      <Tab.Navigator
-        screenOptions={{
+      <Tab.Navigator>
+        {/* screenOptions={{
           headerStyle: { backgroundColor: '#007AFF' },
           tabBarStyle: { backgroundColor: '#222428' }, 
-        }}
-      >
-        <Tab.Screen
-          name="Home"
-          component={HomeScreen}
+        }} */}
+      
+        <Tab.Screen name="Profil" component={HomeScreen}
           options={{
-            tabBarLabel: 'Home',
-            tabBarIcon: ({ color, size }) => (
-              <FontAwesome5 name="home" color={color} size={size} />
+            headerShown: false,
+            tabBarIcon: ({ color }) => (
+              <FontAwesomeIcon icon={faUser} color={color} size={20} />
             ),
           }}
         />
         <Tab.Screen
-          name="Settings"
-          component={SettingsScreen}
+          name="Mahasiswa" component={DataMahasiswaScreen}
           options={{
-            tabBarLabel: 'Settings',
-            tabBarIcon: ({ color, size }) => (
-              <FontAwesome5 name="cog" color={color} size={size} />
+            tabBarIcon: ({ color }) => (
+              <FontAwesomeIcon icon={faUserGraduate} color={color} size={20} />
+            ),
+          }}
+        />
+        <Tab.Screen
+          name="GitHub" component={WebScreen}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <FontAwesomeIcon icon={faUserGraduate} color={color} size={20} />
             ),
           }}
         />
