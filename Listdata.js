@@ -46,8 +46,6 @@ const Listdata = () => {
             })
     }
 
-
-
     return (
         <SafeAreaView>
             {isLoading ? (

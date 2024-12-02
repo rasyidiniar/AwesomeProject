@@ -4,11 +4,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import Profil from './App';
-import { faUser, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faUserGraduate, faPlusCircle, faUserPen } from '@fortawesome/free-solid-svg-icons';
 import { WebView } from 'react-native-webview';
 import CreateData from './Createdata';
 import Mahasiswa from './Mahasiswa';
 import DataMahasiswa from './Listdata';
+import Editdata from './Editdata';
 
 function HomeScreen() {
   return (
@@ -22,11 +23,9 @@ function DataMahasiswaScreen() {
   );
 }
 
-function WebScreen() {
+function EditScreen() {
   return (
-    <WebView
-        source={{ uri: 'https://github.com/rasyidiniar' }}
-      />
+    <Editdata/>
   );
 }
 
@@ -41,11 +40,11 @@ export default function App() {
           tabBarStyle: { backgroundColor: '#222428' }, 
         }} */}
       
-        <Tab.Screen name="Profil" component={HomeScreen}
+        <Tab.Screen name="Tambah" component={HomeScreen}
           options={{
             headerShown: false,
             tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faUser} color={color} size={20} />
+              <FontAwesomeIcon icon={faPlusCircle} color={color} size={20} />
             ),
           }}
         />
@@ -58,10 +57,10 @@ export default function App() {
           }}
         />
         <Tab.Screen
-          name="GitHub" component={WebScreen}
+          name="Edit" component={EditScreen}
           options={{
             tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faUserGraduate} color={color} size={20} />
+              <FontAwesomeIcon icon={faUserPen} color={color} size={20} />
             ),
           }}
         />
