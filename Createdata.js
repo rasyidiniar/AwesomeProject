@@ -1,23 +1,22 @@
-import React, { useState } from 'react'
-import { SafeAreaView, View, ScrollView, TextInput, Button, StyleSheet, Text } from 'react-native';
+import React, { useState } from 'react';
+import { View, ScrollView, TextInput, TouchableOpacity, Text, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const Createdata = () => {
     const jsonUrl = 'http://10.0.2.2:3000/mahasiswa';
-    const [first_name, setFirstName] = useState('');
-    const [last_name, setLastName] = useState('');
-    const [kelas, setKelas] = useState('');
-    const [gender, setGender] = useState('');
-    const [email, setEmail] = useState('');
+    const [nama, setNama] = useState('');
+    const [rating, setRating] = useState('');
+    const [alamat, setAlamat] = useState('');
+    const [jamBuka, setJamBuka] = useState('');
 
     const submit = () => {
         const data = {
-            first_name: first_name,
-            last_name: last_name,
-            email: email,
-            kelas: kelas,
-            gender: gender,
+            Nama: nama,
+            Rating: rating,
+            Alamat: alamat,
+            Jam_Buka: jamBuka,
         };
-        fetch('http://10.0.2.2:3000/mahasiswa', {
+        fetch(jsonUrl, {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
@@ -29,82 +28,97 @@ const Createdata = () => {
             .then((json) => {
                 console.log(json);
                 alert('Data tersimpan');
-                setFirstName('');
-                setLastName('');
-                setEmail('');
-                setKelas('');
-                setGender('');
+                setNama('');
+                setRating('');
+                setAlamat('');
+                setJamBuka('');
             })
-    }
-
+            .catch((error) => {
+                console.error(error);
+                alert('Terjadi kesalahan saat menyimpan data');
+            });
+    };
 
     return (
-        <SafeAreaView>
-            <View>
-                <Text style={styles.title}>Tambah Data Mahasiswa</Text>
+        <SafeAreaView style={styles.container}>
+            <View style={styles.container}>
+                <Text style={styles.title}>Tambah Data Wisata</Text>
                 <ScrollView style={styles.form}>
                     <TextInput
                         style={styles.input}
-                        placeholder="Nama Depan"
-                        value={first_name}
-                        onChangeText={setFirstName}
+                        placeholder="Nama"
+                        value={nama}
+                        onChangeText={setNama}
                     />
                     <TextInput
                         style={styles.input}
-                        placeholder="Nama Belakang"
-                        value={last_name}
-                        onChangeText={setLastName}
+                        placeholder="Rating"
+                        value={rating}
+                        onChangeText={setRating}
                     />
                     <TextInput
                         style={styles.input}
-                        placeholder="Kelas"
-                        value={kelas}
-                        onChangeText={setKelas}
+                        placeholder="Alamat"
+                        value={alamat}
+                        onChangeText={setAlamat}
                     />
                     <TextInput
                         style={styles.input}
-                        placeholder="Jenis Kelamin"
-                        value={gender}
-                        onChangeText={setGender}
+                        placeholder="Jam Buka"
+                        value={jamBuka}
+                        onChangeText={setJamBuka}
                     />
-                    <TextInput
-                        style={styles.input}
-                        placeholder="Email"
-                        value={email}
-                        onChangeText={setEmail}
-                    />
-                    <Button title="Simpan" style={styles.button} onPress={submit} />
+                    <TouchableOpacity
+                        style={styles.button}
+                        onPress={submit}
+                    >
+                        <Text style={styles.buttonText}>Simpan</Text>
+                    </TouchableOpacity>
                 </ScrollView>
             </View>
-        </SafeAreaView >
-    )
+        </SafeAreaView>
+    );
+};
 
-}
-
-export default Createdata
+export default Createdata;
 
 const styles = StyleSheet.create({
+    container: {
+        flex: 1, // Menjamin container mengisi seluruh layar
+        backgroundColor: '#EBEBEB', // Mengatur latar belakang seluruh layar
+    },
     title: {
         paddingVertical: 12,
-        backgroundColor: '#333',
+        backgroundColor: '#A63238',
         color: 'white',
         fontSize: 20,
         fontWeight: 'bold',
         textAlign: 'center',
     },
     form: {
-        padding: 10,
-        marginBottom: 100,
+        padding: 20,
+        marginBottom: 100, // Memberikan jarak pada bagian bawah untuk menghindari tab bar atau border
+        backgroundColor: '#EBEBEB', // Latar belakang form sama dengan halaman
     },
     input: {
         borderWidth: 1,
         borderColor: '#777',
         borderRadius: 8,
-        padding: 8,
+        padding: 12,
         width: '100%',
-        marginVertical: 5,
+        marginVertical: 8,
+        backgroundColor: 'white',
     },
     button: {
-        marginVertical: 10,
+        marginVertical: 20, // Jarak vertikal tombol (atas dan bawah)
+        backgroundColor: '#AD852E',  // Warna latar belakang tombol
+        paddingVertical: 10, // Menambah padding vertikal agar tombol lebih besar
+        borderRadius: 5, // Menambahkan sudut tumpul pada tombol
+        alignItems: 'center', // Menyusun teks tombol di tengah
+    },
+    buttonText: {
+        color: 'white',  // Warna teks tombol
+        fontWeight: 'bold',  // Menebalkan teks
+        fontSize: 16,  // Ukuran font tombol
     }
-})
+});

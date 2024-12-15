@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
+import type { PropsWithChildren } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -19,20 +19,18 @@ import {
 
 import {
   Colors,
-  DebugInstructions,
   Header,
   LearnMoreLinks,
-  ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
-function Section({children, title}: SectionProps): React.JSX.Element {
+function Section({ children, title }: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
-    <View style={styles.sectionContainer}>
+    <View style={styles.card}>
       <Text
         style={[
           styles.sectionTitle,
@@ -72,21 +70,16 @@ function App(): React.JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Nama">
-            Rasyidini Ayu Rahmawati
-          </Section>
-          <Section title="NIM">
-            22/499856/SV/21374
-          </Section>
-          <Section title="Program Studi">
-            D4 Sistem Informasi Geografis
-          </Section>
-          <Section title="Kelas">
-            B
+        <View style={{ backgroundColor: isDarkMode ? Colors.black : Colors.white }}>
+          <Section title="Nama">Rasyidini Ayu Rahmawati</Section>
+          <Section title="NIM">22/499856/SV/21374</Section>
+          <Section title="Program Studi">D4 Sistem Informasi Geografis</Section>
+          <Section title="Kelas">B</Section>
+          <Section title="Deskripsi Aplikasi">
+            <Text>
+              Aplikasi ini dibuat dengan beberapa komponen di React Native 
+              seperti ABCD yang diintegrasikan dengan data dari Google Maps.
+            </Text>
           </Section>
           <LearnMoreLinks />
         </View>
@@ -109,8 +102,20 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '400',
   },
-  highlight: {
-    fontWeight: '700',
+  card: {
+    backgroundColor: 'white',
+    borderRadius: 10,
+    padding: 20,
+    marginVertical: 10,
+    marginHorizontal: 20,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.5,
+    elevation: 5, 
   },
 });
 

@@ -1,3 +1,6 @@
+
+//TIDAK DIGUNAKAN SAAT RESPONSI KARENA MENGGUNAKAN CRUD MAHASISWA NAV.JS
+
 import * as React from 'react';
 import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -28,17 +31,26 @@ function WebScreen() {
   );
 }
 
+function MapScreen() {
+  return (
+    <Petadata/>
+  );
+}
+
+function ProfilScreen() {
+  return (
+      <View>
+          <Portofolio />
+      </View>
+  );
+}
+
 const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
-        {/* screenOptions={{
-          headerStyle: { backgroundColor: '#007AFF' },
-          tabBarStyle: { backgroundColor: '#222428' }, 
-        }} */}
-      
+      <Tab.Navigator>      
         <Tab.Screen name="Profil" component={HomeScreen}
           options={{
             headerShown: false,
@@ -63,6 +75,22 @@ export default function App() {
             ),
           }}
         />
+        <Tab.Screen name="Peta" component={MapScreen}
+          options={{
+            headerShown: false,
+            tabBarIcon: ({ color }) => (
+              <FontAwesomeIcon icon={faUser} color={color} size={20} />
+            ),
+          }}
+        />
+        <Tab.Screen name="Profil" component={ProfilScreen}
+                    options={{
+                        tabBarLabel: 'Profil',
+                        tabBarIcon: ({ color, size }) => (
+                            <FontAwesomeIcon icon={faUserGraduate} color={color} size={20} />
+                        ),
+                    }}
+                />
       </Tab.Navigator>
     </NavigationContainer>
   );

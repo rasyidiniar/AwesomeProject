@@ -1,31 +1,34 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import Profil from './App';
-import { faUser, faUserGraduate, faPlusCircle, faUserPen } from '@fortawesome/free-solid-svg-icons';
-import { WebView } from 'react-native-webview';
+import { faMapSigns, faPlusCircle, faPencilAlt, faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
 import CreateData from './Createdata';
-import Mahasiswa from './Mahasiswa';
 import DataMahasiswa from './Listdata';
 import Editdata from './Editdata';
+import { WebView } from 'react-native-webview';
 
 function HomeScreen() {
-  return (
-      <CreateData/>
-  );
+  console.log("Navigated to HomeScreen");
+  return <CreateData />;
 }
 
 function DataMahasiswaScreen() {
-  return (
-    <DataMahasiswa/>
-  );
+  console.log("Navigated to DataMahasiswaScreen");
+  return <DataMahasiswa />;
 }
 
 function EditScreen() {
+  console.log("Navigated to EditScreen");
+  return <Editdata />;
+}
+
+function MapScreen() {
+  console.log("Navigated to MapScreen");
   return (
-    <Editdata/>
+    <WebView
+      source={{ uri: 'https://pgpblleaflet-rarr.vercel.app/home' }}
+    />
   );
 }
 
@@ -34,34 +37,75 @@ const Tab = createBottomTabNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
-        {/* screenOptions={{
-          headerStyle: { backgroundColor: '#007AFF' },
-          tabBarStyle: { backgroundColor: '#222428' }, 
-        }} */}
-      
-        <Tab.Screen name="Tambah" component={HomeScreen}
+      <Tab.Navigator
+        screenOptions={{
+          tabBarStyle: {
+            backgroundColor: '#A63238', // Mengubah warna latar belakang tab bar
+          },
+        }}
+        tabBarOptions={{
+          activeTintColor: 'white', // Tab label and icon color when active
+          inactiveTintColor: '#AD852E', // Tab label and icon color when inactive
+        }}
+      >
+        <Tab.Screen 
+          name="Tambah" 
+          component={HomeScreen}
           options={{
             headerShown: false,
             tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faPlusCircle} color={color} size={20} />
+              <FontAwesomeIcon 
+                icon={faPlusCircle} 
+                color={color} // Use the active or inactive color
+                size={20} 
+              />
             ),
+            tabBarLabel: 'Tambah'
           }}
         />
         <Tab.Screen
-          name="Mahasiswa" component={DataMahasiswaScreen}
+          name="Daftar Desa Wisata" 
+          component={DataMahasiswaScreen}
           options={{
+            headerShown: false,
             tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faUserGraduate} color={color} size={20} />
+              <FontAwesomeIcon 
+                icon={faMapSigns} 
+                color={color} // Use the active or inactive color
+                size={20} 
+              />
             ),
+            tabBarLabel: 'Daftar Desa Wisata'
           }}
         />
         <Tab.Screen
-          name="Edit" component={EditScreen}
+          name="Edit" 
+          component={EditScreen}
           options={{
+            headerShown: false,
             tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faUserPen} color={color} size={20} />
+              <FontAwesomeIcon 
+                icon={faPencilAlt} 
+                color={color} // Use the active or inactive color
+                size={20} 
+              />
             ),
+            tabBarLabel: 'Edit'
+          }}
+        />
+        <Tab.Screen
+          name="Peta" 
+          component={MapScreen}
+          options={{
+            headerShown: false,
+            tabBarIcon: ({ color }) => (
+              <FontAwesomeIcon 
+                icon={faMapMarkedAlt} 
+                color={color} // Use the active or inactive color
+                size={20} 
+              />
+            ),
+            tabBarLabel: 'Peta'
           }}
         />
       </Tab.Navigator>

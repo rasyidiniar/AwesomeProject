@@ -1,692 +1,328 @@
-[
-  {
-    "no": 1,
-    "first_name": "Alia",
-    "last_name": "Maulana Resti",
-    "email": "aliamaulanaresti@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.8667599,
-    "longitude": 110.3214134
-  },
-  {
-    "no": 2,
-    "first_name": "ALYA",
-    "last_name": "SYAHIDHA",
-    "email": "alyasyahidha@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.7867386,
-    "longitude": 110.5948413
-  },
-  {
-    "no": 3,
-    "first_name": "Amirul",
-    "last_name": "Fahmi",
-    "email": "amirulfahmiash-shiddiqie@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "male",
-    "latitude": -7.7741292,
-    "longitude": 110.4335901
-  },
-  {
-    "no": 4,
-    "first_name": "Anastashia Kedaton",
-    "last_name": "Firasatie",
-    "email": "anastashiakedatonfirasatie506013@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.625758,
-    "longitude": 110.4283482
-  },
-  {
-    "no": 5,
-    "first_name": "Anggita",
-    "last_name": "Maharani",
-    "email": "anggitamaharani@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.7077444,
-    "longitude": 110.3397598
-  },
-  {
-    "no": 6,
-    "first_name": "Annisa",
-    "last_name": "Cahyarina",
-    "email": "annisacahyarina@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.5867725,
-    "longitude": 110.5642926
-  },
-  {
-    "no": 7,
-    "first_name": "arsyifa",
-    "last_name": "wibowo",
-    "email": "arsyifa.rie2003@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.7269347,
-    "longitude": 110.4189062
-  },
-  {
-    "no": 8,
-    "first_name": "Asmarina",
-    "last_name": "Nurjanah",
-    "email": "asmarinanurjanah1504@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.55039,
-    "longitude": 110.536461
-  },
-  {
-    "no": 9,
-    "first_name": "Azril Rozaqi",
-    "last_name": "Ar Rosyid",
-    "email": "azrilrozaqiarrosyid@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.735569,
-    "longitude": 110.5469812
-  },
-  {
-    "no": 10,
-    "first_name": "Calvinros",
-    "last_name": "Ramadhino",
-    "email": "Calvinrosmuhammadramadhino@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.868973,
-    "longitude": 110.5370708
-  },
-  {
-    "no": 11,
-    "first_name": "Camila",
-    "last_name": "Fauzia",
-    "email": "camilafauzia@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.8601787,
-    "longitude": 110.47206
-  },
-  {
-    "no": 12,
-    "first_name": "Cindy",
-    "last_name": "Wahyu Karisma",
-    "email": "cindywahyukarisma@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.753939,
-    "longitude": 110.4671795
-  },
-  {
-    "no": 13,
-    "first_name": "Danniel Immanuelle",
-    "last_name": "Kristo Joaan",
-    "email": "danniel.immanuelle1703@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "male",
-    "latitude": -7.6827796,
-    "longitude": 110.4967532
-  },
-  {
-    "no": 14,
-    "first_name": "Devinta",
-    "last_name": "Putri",
-    "email": "devintacahayaputri506129@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.7844171,
-    "longitude": 110.3412476
-  },
-  {
-    "no": 15,
-    "first_name": "Dhimar Fadhilansyah",
-    "last_name": "Darojat",
-    "email": "dhimarfadhilansyahdarojat@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "male",
-    "latitude": -7.5821853,
-    "longitude": 110.2325765
-  },
-  {
-    "no": 16,
-    "first_name": "Dhiva",
-    "last_name": "Nur Isnaeni",
-    "email": "dhivanurisnaeni@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.9110923,
-    "longitude": 110.3961221
-  },
-  {
-    "no": 17,
-    "first_name": "Digita",
-    "last_name": "Agni",
-    "email": "digitafadeliaagni2004@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.8887239,
-    "longitude": 110.6806624
-  },
-  {
-    "no": 18,
-    "first_name": "Edra",
-    "last_name": "Elricadewi",
-    "email": "edraelricadewi@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.5669543,
-    "longitude": 110.358729
-  },
-  {
-    "no": 19,
-    "first_name": "Elvina",
-    "last_name": "Ardhana",
-    "email": "elvinanurrizaardhana@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.7517246,
-    "longitude": 110.2690607
-  },
-  {
-    "no": 20,
-    "first_name": "Enjellia",
-    "last_name": "Barce",
-    "email": "enjelliabarcepratama@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.8775075,
-    "longitude": 110.4545444
-  },
-  {
-    "no": 21,
-    "first_name": "Faiz Hamdan",
-    "last_name": "Zulfa",
-    "email": "faizhamdanzulfa@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.6109421,
-    "longitude": 110.2472724
-  },
-  {
-    "no": 22,
-    "first_name": "Fani",
-    "last_name": "Aisyah",
-    "email": "faniaisyah@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.723351,
-    "longitude": 110.4640203
-  },
-  {
-    "no": 23,
-    "first_name": "Farah",
-    "last_name": "Nabila",
-    "email": "farahnabilahaibah@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.91045,
-    "longitude": 110.7113105
-  },
-  {
-    "no": 24,
-    "first_name": "farisah",
-    "last_name": "edmi",
-    "email": "farisah.edmi@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.7734347,
-    "longitude": 110.4342212
-  },
-  {
-    "no": 25,
-    "first_name": "Farmana Ditya",
-    "last_name": "Alya Safitri",
-    "email": "farmanadityaalyasafitri2103@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.8419088,
-    "longitude": 110.2931387
-  },
-  {
-    "no": 26,
-    "first_name": "Finie",
-    "last_name": "Aralia Shearani",
-    "email": "finiearaliashearani@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.8398944,
-    "longitude": 110.4248255
-  },
-  {
-    "no": 27,
-    "first_name": "Fisti Fadila Lorentin",
-    "last_name": "Arinina",
-    "email": "fistifadila@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.6032817,
-    "longitude": 110.2377104
-  },
-  {
-    "no": 28,
-    "first_name": "Fuad",
-    "last_name": "Agus Salim",
-    "email": "fuadagussalim@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.7102451,
-    "longitude": 110.5285141
-  },
-  {
-    "no": 29,
-    "first_name": "Galuh Azzahra",
-    "last_name": "Chaylanny",
-    "email": "galuhazzahrachaylanny2004@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.8240213,
-    "longitude": 110.3616079
-  },
-  {
-    "no": 30,
-    "first_name": "Hafizh",
-    "last_name": "Vergiansyah",
-    "email": "hafizhvergiansyah2503@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "male",
-    "latitude": -7.7757566,
-    "longitude": 110.6772847
-  },
-  {
-    "no": 31,
-    "first_name": "Harits",
-    "last_name": "Nuraga",
-    "email": "haritsnuragapadika@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "male",
-    "latitude": -7.5830942,
-    "longitude": 110.6698096
-  },
-  {
-    "no": 32,
-    "first_name": "Hayyu Rahmayani",
-    "last_name": "Puspitasari",
-    "email": "hayyurahmayanipuspitasari0703@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.8503742,
-    "longitude": 110.6453691
-  },
-  {
-    "no": 33,
-    "first_name": "Helos Kana",
-    "last_name": "Aziza",
-    "email": "heloskanaaziza@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.7859414,
-    "longitude": 110.4956415
-  },
-  {
-    "no": 34,
-    "first_name": "Jalu",
-    "last_name": "riski Prasetyo",
-    "email": "jaluriskiprasetyo2004@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.8517223,
-    "longitude": 110.4857733
-  },
-  {
-    "no": 35,
-    "first_name": "Johanes Berchmann Juvens Junior",
-    "last_name": "Pareira",
-    "email": "johanesberchmannjuvensjuniorpareira2004@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "shemale",
-    "latitude": -7.6085104,
-    "longitude": 110.44324
-  },
-  {
-    "no": 36,
-    "first_name": "Joseph",
-    "last_name": "Damarseto",
-    "email": "josephdamarseto2004@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.9150811,
-    "longitude": 110.3980231
-  },
-  {
-    "no": 37,
-    "first_name": "Khosyi Nur",
-    "last_name": "Aliya",
-    "email": "khosyinuraliya@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.8740125,
-    "longitude": 110.2192763
-  },
-  {
-    "no": 38,
-    "first_name": "Kinasih",
-    "last_name": "Sayekti",
-    "email": "kinasihsayekti@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.7472759,
-    "longitude": 110.572234
-  },
-  {
-    "no": 39,
-    "first_name": "Laila Nur",
-    "last_name": "Azizah",
-    "email": "lailanurazizah@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.8170516,
-    "longitude": 110.6890401
-  },
-  {
-    "no": 40,
-    "first_name": "Liviasta Gisella",
-    "last_name": "Sujarwo",
-    "email": "liviastagisellasujarwo@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.818984,
-    "longitude": 110.4516371
-  },
-  {
-    "no": 41,
-    "first_name": "Lutfi Desta",
-    "last_name": "Ramadhani",
-    "email": "lutfi.desta.ramadhani@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.5894765,
-    "longitude": 110.4733632
-  },
-  {
-    "no": 42,
-    "first_name": "M. Indra",
-    "last_name": "Adi Kusuma",
-    "email": "mindraadikusuma@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.8369926,
-    "longitude": 110.6364591
-  },
-  {
-    "no": 43,
-    "first_name": "Maureen Arsa",
-    "last_name": "Sanda Cantika",
-    "email": "maureenarsasandacantika@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.6395488,
-    "longitude": 110.6838172
-  },
-  {
-    "no": 44,
-    "first_name": "Meyna",
-    "last_name": "Anjar Nilawati",
-    "email": "meynaanjarnilawati@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.5647362,
-    "longitude": 110.6912811
-  },
-  {
-    "no": 45,
-    "first_name": "Michael Noelvito",
-    "last_name": "Husodo",
-    "email": "michaelnoelvitohusodo2003@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "male",
-    "latitude": -7.7334783,
-    "longitude": 110.6461013
-  },
-  {
-    "no": 46,
-    "first_name": "Miftah",
-    "last_name": "Desma",
-    "email": "miftahdesmasyahputra@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.581249,
-    "longitude": 110.179933
-  },
-  {
-    "no": 47,
-    "first_name": "Minarni",
-    "last_name": "Kukilo Buhana",
-    "email": "minarnikukilobuhana@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.7527921,
-    "longitude": 110.3414746
-  },
-  {
-    "no": 48,
-    "first_name": "Muhammad",
-    "last_name": "Anshori",
-    "email": "muhammadanshori@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.7839021,
-    "longitude": 110.4838315
-  },
-  {
-    "no": 49,
-    "first_name": "MUHAMMAD NASHAN",
-    "last_name": "FAUZIAN",
-    "email": "muhammadnashanfauzian1404@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "male",
-    "latitude": -7.7785444,
-    "longitude": 110.7047644
-  },
-  {
-    "no": 50,
-    "first_name": "Muhammad Nazhmi",
-    "last_name": "Najib Al-Akhdhar",
-    "email": "muhammadnazhminajiba@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.8855616,
-    "longitude": 110.6391594
-  },
-  {
-    "no": 51,
-    "first_name": "nazhifa",
-    "last_name": "khoirunnisa",
-    "email": "nazhifakhoirunnisa@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.6696938,
-    "longitude": 110.2512419
-  },
-  {
-    "no": 52,
-    "first_name": "Nisa",
-    "last_name": "Ardiyanti",
-    "email": "nisaardiyanti@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.5543256,
-    "longitude": 110.7132995
-  },
-  {
-    "no": 53,
-    "first_name": "Nurnita",
-    "last_name": "Permatasari",
-    "email": "nurnitapermatasari@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.6188306,
-    "longitude": 110.5745392
-  },
-  {
-    "no": 54,
-    "first_name": "Putri",
-    "last_name": "Saynata",
-    "email": "putri.cahya.saynata@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.5625393,
-    "longitude": 110.6623322
-  },
-  {
-    "no": 55,
-    "first_name": "Raissa",
-    "last_name": "Nirbana",
-    "email": "raissanirbana1904@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.7718803,
-    "longitude": 110.7103151
-  },
-  {
-    "no": 56,
-    "first_name": "Rasyidini",
-    "last_name": "Ayu Rahmawati",
-    "email": "rasyidiniayurahmawati@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.6583255,
-    "longitude": 110.6562968
-  },
-  {
-    "no": 57,
-    "first_name": "RENDY",
-    "last_name": "PUTRA MARETIKA",
-    "email": "rendy.putra.maretika@ugm.ac.id",
-    "class": "A",
-    "gender": "male",
-    "latitude": -7.61221,
-    "longitude": 110.5885459
-  },
-  {
-    "no": 58,
-    "first_name": "Rindi",
-    "last_name": "Tri setyaningsih",
-    "email": "rinditrisetyaningsih2004@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.6483511,
-    "longitude": 110.4211382
-  },
-  {
-    "no": 59,
-    "first_name": "Rini",
-    "last_name": "Husadiyah",
-    "email": "rini.husadiyah@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.6343101,
-    "longitude": 110.4761801
-  },
-  {
-    "no": 60,
-    "first_name": "Risma",
-    "last_name": "Enggar Sri Kawurihan",
-    "email": "rismaenggarsrikawurihan@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.8123405,
-    "longitude": 110.5740486
-  },
-  {
-    "no": 61,
-    "first_name": "Rowina",
-    "last_name": "Andini",
-    "email": "rowinaandini@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.8676731,
-    "longitude": 110.4838818
-  },
-  {
-    "no": 62,
-    "first_name": "Salsabila Eka",
-    "last_name": "Fadila",
-    "email": "salsabilaekafadila@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.5656504,
-    "longitude": 110.5141614
-  },
-  {
-    "no": 63,
-    "first_name": "Tita",
-    "last_name": "Amalia",
-    "email": "titaamaliasudarma@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.6768131,
-    "longitude": 110.7195373
-  },
-  {
-    "no": 64,
-    "first_name": "Trisna Diah Ayu",
-    "last_name": "Wulandari",
-    "email": "trisnadiahayuwulandari@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.7326718,
-    "longitude": 110.6300708
-  },
-  {
-    "no": 65,
-    "first_name": "Vaza",
-    "last_name": "Zuvarul Lutfhan",
-    "email": "vaza.z.l@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "male",
-    "latitude": -7.6176897,
-    "longitude": 110.4620444
-  },
-  {
-    "no": 66,
-    "first_name": "Veronica",
-    "last_name": "Tia Ningrum",
-    "email": "veronicatianingrum@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.8851751,
-    "longitude": 110.2712902
-  },
-  {
-    "no": 67,
-    "first_name": "Wulan",
-    "last_name": "Indahsari",
-    "email": "wulanindahsari2002@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.7577165,
-    "longitude": 110.5797371
-  },
-  {
-    "no": 68,
-    "first_name": "Yasin",
-    "last_name": "Manik Hawa",
-    "email": "yasinmanikhawa@mail.ugm.ac.id",
-    "class": "B",
-    "gender": "female",
-    "latitude": -7.8919839,
-    "longitude": 110.3004266
-  },
-  {
-    "no": 69,
-    "first_name": "Yellove",
-    "last_name": "Yellove Devitaraja",
-    "email": "yellovedevitaraja0203@mail.ugm.ac.id",
-    "class": "A",
-    "gender": "female",
-    "latitude": -7.738641,
-    "longitude": 110.2729708
-  }
-]
+{
+  "mahasiswa": [
+    {
+      "Nama": "Desa Wisata Jatimulyo - Kulon Progo",
+      "Rating": "4,2",
+      "Alamat": "Sekretariat Desa Wisata",
+      "Jam Buka": "⋅ Opens 10.00am Mon",
+      "Full Address": "Desa Wisata Jatimulyo - Kulon Progo Sekretariat Desa Wisata",
+      "Latitude": -7.7526214,
+      "Longitude": 110.1307636
+    },
+    {
+      "Nama": "Desa Wisata Nglinggo",
+      "Rating": "4,4",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 9.00am Mon",
+      "Full Address": "Desa Wisata Nglinggo Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.647668,
+      "Longitude": 110.141878
+    },
+    {
+      "Nama": "Desa Wisata Banjarasri",
+      "Rating": "4,6",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 9.00am Mon",
+      "Full Address": "Desa Wisata Banjarasri Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.6985187,
+      "Longitude": 110.2254251
+    },
+    {
+      "Nama": "Desa Wisata Widosari (Desa Wisata Widosari Jogja)",
+      "Rating": "4,8",
+      "Alamat": "Jalan Pangaji 7 Ngaliyan",
+      "Jam Buka": "",
+      "Full Address": "Desa Wisata Widosari (Desa Wisata Widosari Jogja) Jalan Pangaji 7 Ngaliyan",
+      "Latitude": -7.0096639,
+      "Longitude": 110.3259133
+    },
+    {
+      "Nama": "Desa Wisata Tinalah (Dewi Tinalah - Wisata Jogja)",
+      "Rating": "4,5",
+      "Alamat": "Jl. Persandian No.KM 5",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "Desa Wisata Tinalah (Dewi Tinalah - Wisata Jogja) Jl. Persandian No.KM 5",
+      "Latitude": -7.6955803,
+      "Longitude": 110.1958839
+    },
+    {
+      "Nama": "Desa Wisata Banjaroya Jogja",
+      "Rating": "5,0",
+      "Alamat": "Kapanewon Kalibawang, Kalurahan",
+      "Jam Buka": "⋅ Opens 7.00am Mon",
+      "Full Address": "Desa Wisata Banjaroya Jogja Kapanewon Kalibawang, Kalurahan",
+      "Latitude": -7.6522479,
+      "Longitude": 110.2558633
+    },
+    {
+      "Nama": "Desa Wisata Sermo Hargowilis",
+      "Rating": "",
+      "Alamat": "54HF+W3R",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "Desa Wisata Sermo Hargowilis 54HF+W3R",
+      "Latitude": -7.8201375,
+      "Longitude": 110.1226406
+    },
+    {
+      "Nama": "Puncak Kleco Desa Wisata Tinalah",
+      "Rating": "4,5",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "",
+      "Full Address": "Puncak Kleco Desa Wisata Tinalah Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.7125459,
+      "Longitude": 110.2045109
+    },
+    {
+      "Nama": "Kantor Desa Wisata Glagah",
+      "Rating": "4,7",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "",
+      "Full Address": "Kantor Desa Wisata Glagah Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.9031769,
+      "Longitude": 110.0728308
+    },
+    {
+      "Nama": "Puncak Widosari - Desa Wisata Widosari",
+      "Rating": "4,6",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 6.00am Mon",
+      "Full Address": "Puncak Widosari - Desa Wisata Widosari Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.6583125,
+      "Longitude": 110.1488125
+    },
+    {
+      "Nama": "Goa Sriti",
+      "Rating": "4,3",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 9.00am Mon",
+      "Full Address": "Goa Sriti Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.7035962,
+      "Longitude": 110.2031232
+    },
+    {
+      "Nama": "Desa Wisata Hargowilis",
+      "Rating": "",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "Desa Wisata Hargowilis Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.8241769,
+      "Longitude": 110.1104789
+    },
+    {
+      "Nama": "Desa Wisata Salamrejo",
+      "Rating": "4,4",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "",
+      "Full Address": "Desa Wisata Salamrejo Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.8506884,
+      "Longitude": 110.2313331
+    },
+    {
+      "Nama": "Segajih Live In",
+      "Rating": "4,5",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 7.00am Mon",
+      "Full Address": "Segajih Live In Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.7993863,
+      "Longitude": 110.1166819
+    },
+    {
+      "Nama": "dolaNdeso Boro",
+      "Rating": "4,4",
+      "Alamat": "Depok",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "dolaNdeso Boro Depok",
+      "Latitude": -6.4024844,
+      "Longitude": 106.7942405
+    },
+    {
+      "Nama": "Tourism Village KABUDWAREH",
+      "Rating": "4,1",
+      "Alamat": "854Q+QG2",
+      "Jam Buka": "",
+      "Full Address": "Tourism Village KABUDWAREH 854Q+QG2",
+      "Latitude": -7.6931245,
+      "Longitude": 110.1887532
+    },
+    {
+      "Nama": "Desa Wisata Edukasi Gulurejo",
+      "Rating": "",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 9.00am Mon",
+      "Full Address": "Desa Wisata Edukasi Gulurejo Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.9128421,
+      "Longitude": 110.2589159
+    },
+    {
+      "Nama": "Puncak Kuda Sembrani-Desa Wisata Banjarasri",
+      "Rating": "4,3",
+      "Alamat": "8657+57J",
+      "Jam Buka": "⋅ Opens 6.00am Mon",
+      "Full Address": "Puncak Kuda Sembrani-Desa Wisata Banjarasri 8657+57J",
+      "Latitude": -7.6920487,
+      "Longitude": 110.2131553
+    },
+    {
+      "Nama": "Air Terjun Kembang Soka",
+      "Rating": "4,7",
+      "Alamat": "Jl. Raya Kaligesing",
+      "Jam Buka": "⋅ Opens 9.00am Mon",
+      "Full Address": "Air Terjun Kembang Soka Jl. Raya Kaligesing",
+      "Latitude": -7.7664251,
+      "Longitude": 110.1175615
+    },
+    {
+      "Nama": "Wisata Desa Kedung Gajah x Jangkang Kidul",
+      "Rating": "5,0",
+      "Alamat": "56C7+5JX",
+      "Jam Buka": "",
+      "Full Address": "Wisata Desa Kedung Gajah x Jangkang Kidul 56C7+5JX",
+      "Latitude": -7.8295125,
+      "Longitude": 110.2141094
+    },
+    {
+      "Nama": "Desa Wisata Nglambur",
+      "Rating": "4,7",
+      "Alamat": "Dusun Nglambur, Rt 03, RT.03/RW.02",
+      "Jam Buka": "⋅ Opens 8.30am Mon",
+      "Full Address": "Desa Wisata Nglambur Dusun Nglambur, Rt 03, RT.03/RW.02",
+      "Latitude": -7.647624,
+      "Longitude": 110.1892012
+    },
+    {
+      "Nama": "Kampung Wisata Edukasi Kawasan Kalibiru",
+      "Rating": "",
+      "Alamat": "Jalan Lumpang Kentheng Jl. Dusun Kamal, RT.65/RW.29",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "Kampung Wisata Edukasi Kawasan Kalibiru Jalan Lumpang Kentheng Jl. Dusun Kamal, RT.65/RW.29",
+      "Latitude": -7.8072986,
+      "Longitude": 110.1261135
+    },
+    {
+      "Nama": "Canting Mas Puncak Dipowono",
+      "Rating": "4,4",
+      "Alamat": "Jl. Clereng Tamanan KM. 6, Desa Hargowilis, Kokap",
+      "Jam Buka": "",
+      "Full Address": "Canting Mas Puncak Dipowono Jl. Clereng Tamanan KM. 6, Desa Hargowilis, Kokap",
+      "Latitude": -7.80032,
+      "Longitude": 110.128122
+    },
+    {
+      "Nama": "Area fun tubing Desa wisata tinalah",
+      "Rating": "",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 9.00am Mon",
+      "Full Address": "Area fun tubing Desa wisata tinalah Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.7124874,
+      "Longitude": 110.208505
+    },
+    {
+      "Nama": "Desa Wisata Jangkaran",
+      "Rating": "",
+      "Alamat": "425P+FJ7, Jl. Pantai Congot",
+      "Jam Buka": "",
+      "Full Address": "Desa Wisata Jangkaran 425P+FJ7, Jl. Pantai Congot",
+      "Latitude": -7.8951785,
+      "Longitude": 110.0350078
+    },
+    {
+      "Nama": "Wisata Kalibiru",
+      "Rating": "4,4",
+      "Alamat": "Jalan Waduk Sermo",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "Wisata Kalibiru Jalan Waduk Sermo",
+      "Latitude": -7.8074219,
+      "Longitude": 110.1292682
+    },
+    {
+      "Nama": "Tourism Village Purwosari",
+      "Rating": "4,3",
+      "Alamat": "748M+29C",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "Tourism Village Purwosari 748M+29C",
+      "Latitude": -7.7349251,
+      "Longitude": 110.1333854
+    },
+    {
+      "Nama": "EMBUNG TONOGORO (ꦲꦼꦩ꧀ꦧꦸꦁꦠꦤꦒꦫ) - DESA BANJAROYO - KALIBAWANG",
+      "Rating": "4,5",
+      "Alamat": "86RM+CP5",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "EMBUNG TONOGORO (ꦲꦼꦩ꧀ꦧꦸꦁꦠꦤꦒꦫ) - DESA BANJAROYO - KALIBAWANG 86RM+CP5",
+      "Latitude": -7.6589845,
+      "Longitude": 110.234359
+    },
+    {
+      "Nama": "Jogja Memotarium Wisata Desa",
+      "Rating": "4,4",
+      "Alamat": "6437+MQX",
+      "Jam Buka": "⋅ Opens 9.00am Mon",
+      "Full Address": "Jogja Memotarium Wisata Desa 6437+MQX",
+      "Latitude": -7.7957599,
+      "Longitude": 110.1144755
+    },
+    {
+      "Nama": "Kawasan desa WISATA SAWAH SURJAN TURIREJO PLERET",
+      "Rating": "",
+      "Alamat": "348W+PQ3, Pleret IV, RT.15/RW.08",
+      "Jam Buka": "",
+      "Full Address": "Kawasan desa WISATA SAWAH SURJAN TURIREJO PLERET 348W+PQ3, Pleret IV, RT.15/RW.08",
+      "Latitude": -7.9332447,
+      "Longitude": 110.1469078
+    },
+    {
+      "Nama": "Wisata nglinggo",
+      "Rating": "4,0",
+      "Alamat": "84JW+G5Q",
+      "Jam Buka": "",
+      "Full Address": "Wisata nglinggo 84JW+G5Q",
+      "Latitude": -7.6686625,
+      "Longitude": 111.1454844
+    },
+    {
+      "Nama": "DESA WISATA JONGGRANGAN",
+      "Rating": "4,3",
+      "Alamat": "Sleman Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ Opens 9.00am Mon",
+      "Full Address": "DESA WISATA JONGGRANGAN Sleman Regency, Special Region of Yogyakarta",
+      "Latitude": -7.7102818,
+      "Longitude": 110.2687623
+    },
+    {
+      "Nama": "Pawon Taman Sidorejo",
+      "Rating": "4,9",
+      "Alamat": "36GV+7VW, Jl. Balai Desa Sidorejo",
+      "Jam Buka": "⋅ 11.00pm",
+      "Full Address": "Pawon Taman Sidorejo 36GV+7VW, Jl. Balai Desa Sidorejo",
+      "Latitude": -7.92426,
+      "Longitude": 110.2446917
+    },
+    {
+      "Nama": "Bukit Wisata Pulepayung",
+      "Rating": "4,5",
+      "Alamat": "Soropati RT.007/RW.003",
+      "Jam Buka": "⋅ Opens 8.00am Mon",
+      "Full Address": "Bukit Wisata Pulepayung Soropati RT.007/RW.003",
+      "Latitude": -7.7999428,
+      "Longitude": 110.1237712
+    },
+    {
+      "Nama": "Wisata Jati Moncol",
+      "Rating": "4,6",
+      "Alamat": "46P8+9P2",
+      "Jam Buka": "⋅ Opens 9.00am Tue",
+      "Full Address": "Wisata Jati Moncol 46P8+9P2",
+      "Latitude": -7.8641191,
+      "Longitude": 110.2167649
+    },
+    {
+      "Nama": "Wisata Punthuk Ngepoh",
+      "Rating": "4,5",
+      "Alamat": "Kulon Progo Regency, Special Region of Yogyakarta",
+      "Jam Buka": "⋅ 11.00pm",
+      "Full Address": "Wisata Punthuk Ngepoh Kulon Progo Regency, Special Region of Yogyakarta",
+      "Latitude": -7.7173943,
+      "Longitude": 110.1918837
+    }
+  ]
+}
