@@ -1,79 +1,47 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5fead0dc-4806-4f45-8fc6-df6d8f5ff495" alt="logo" width="200" height="200">
+</div>
 
-# Getting Started
+# Glance at Kulon Progo Village Tourism
+Aplikasi Desa Wisata Kulon Progo adalah sebuah platform digital yang dirancang untuk mendukung pengelolaan dan promosi potensi pariwisata desa-desa wisata di Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta (DIY). Aplikasi ini bertujuan untuk mempermudah wisatawan dalam mencari informasi terkait destinasi wisata, fasilitas, dan aktivitas unggulan yang ada di setiap desa wisata di wilayah tersebut. Selain itu, aplikasi ini juga membantu pengelola desa wisata dalam meningkatkan interaksi dengan wisatawan dan mendukung pelestarian budaya serta pemberdayaan ekonomi lokal.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Komponen Pembangun Produk
 
-## Step 1: Start the Metro Server
+- *Android Studio:* Dimanfaatkan sebagai emulator untuk menjalankan dan menguji aplikasi Uni Locater pada perangkat Android.  
+- *Font Awesome:* Menambahkan ikon-ikon yang memperkaya antarmuka pengguna (UI) untuk pengalaman navigasi yang lebih jelas dan menarik.  
+- *Ionic Framework:* Mendukung integrasi dengan teknologi GIS atau pustaka pemetaan seperti Leaflet atau Google Maps API.  
+- *JSON:* Digunakan untuk menyimpan data lokasi kampus yang ditambahkan oleh pengguna.  
+- *Leaflet.js:* Library JavaScript yang mendukung peta interaktif pada aplikasi.  
+- *Mapbox / Google Maps:* Menyediakan fitur peta interaktif untuk menampilkan lokasi kampus.  
+- *Node.js:* Digunakan pada sisi server untuk menangani berbagai fungsi penting dalam aplikasi berbasis React Native.  
+- *React Native:* Framework utama yang digunakan untuk membangun aplikasi lintas platform (Android dan iOS).  
+- *React Navigation:* Berfungsi untuk mengatur navigasi antar halaman aplikasi.  
+- *Vercel:* Platform hosting frontend modern yang efisien untuk aplikasi berbasis web.  
+- *Visual Studio Code:* Digunakan sebagai editor kode utama, dengan fitur terminal terintegrasi, dukungan debugging, dan berbagai ekstensi yang membantu proses pengembangan aplikasi.  
+- *Javascript:* Mengelola logika aplikasi, memberikan interaktivitas, dan mendukung integrasi dengan API serta sistem backend.  
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Sumber Data
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- Google Maps: Data titik koordinat Desa Wisata di Kulon Progo.
+- Input dari Aplikasi: Beberapa data yang diinputkan oleh pengguna melalui komponen di Aplikasi.
 
-```bash
-# using npm
-npm start
+## Tangkapan Layar Komponen Penting Produk
+1. *Halaman Tambah Data:*
+   <div align="center">
+     <img src="https://github.com/user-attachments/assets/3490d27c-1847-4772-a7a9-12f99c4fc06f" alt="Halaman Tambah Data">
+   </div>
 
-# OR using Yarn
-yarn start
-```
+2. *Halaman Daftar Desa Wisata:*
+   <div align="center">
+     <img src="https://github.com/user-attachments/assets/cb09f500-3e76-4dde-b468-cdd07e5cb082" alt="Halaman Daftar Desa Wisata">
+   </div>
 
-## Step 2: Start your Application
+3. *Halaman Edit Data Wisata:*
+   <div align="center">
+     <img src="https://github.com/user-attachments/assets/b8db702c-9207-43c3-aeb6-3912f074046e" alt="Halaman Edit Data Wisata">
+   </div>
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+4. *Halaman Peta:*
+   <div align="center">
+     <img src="https://github.com/user-attachments/assets/546e5a07-3708-4ecc-a189-f2438a3f3982" alt="Halaman Peta">
+   </div>
