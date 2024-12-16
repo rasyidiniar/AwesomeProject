@@ -7,18 +7,18 @@ Aplikasi Desa Wisata Kulon Progo adalah sebuah platform digital yang dirancang u
 
 ## Komponen Pembangun Produk
 
-- *Android Studio:* Dimanfaatkan sebagai emulator untuk menjalankan dan menguji aplikasi Uni Locater pada perangkat Android.  
-- *Font Awesome:* Menambahkan ikon-ikon yang memperkaya antarmuka pengguna (UI) untuk pengalaman navigasi yang lebih jelas dan menarik.  
-- *Ionic Framework:* Mendukung integrasi dengan teknologi GIS atau pustaka pemetaan seperti Leaflet atau Google Maps API.  
-- *JSON:* Digunakan untuk menyimpan data lokasi kampus yang ditambahkan oleh pengguna.  
+- *Android Studio:* Dimanfaatkan sebagai emulator.  
+- *Font Awesome:* Menambahkan ikon-ikon yang dan menarik.  
+- *Ionic Framework:* Mendukung integrasi dengan teknologi GIS.  
+- *JSON:* Digunakan untuk menyimpan data lokasi oleh pengguna.  
 - *Leaflet.js:* Library JavaScript yang mendukung peta interaktif pada aplikasi.  
 - *Mapbox / Google Maps:* Menyediakan fitur peta interaktif untuk menampilkan lokasi kampus.  
-- *Node.js:* Digunakan pada sisi server untuk menangani berbagai fungsi penting dalam aplikasi berbasis React Native.  
-- *React Native:* Framework utama yang digunakan untuk membangun aplikasi lintas platform (Android dan iOS).  
+- *Node.js:* Digunakan pada sisi server dalam aplikasi berbasis React Native.  
+- *React Native:* Framework utama yang digunakan untuk membangun aplikasi lintas platform.  
 - *React Navigation:* Berfungsi untuk mengatur navigasi antar halaman aplikasi.  
-- *Vercel:* Platform hosting frontend modern yang efisien untuk aplikasi berbasis web.  
-- *Visual Studio Code:* Digunakan sebagai editor kode utama, dengan fitur terminal terintegrasi, dukungan debugging, dan berbagai ekstensi yang membantu proses pengembangan aplikasi.  
-- *Javascript:* Mengelola logika aplikasi, memberikan interaktivitas, dan mendukung integrasi dengan API serta sistem backend.  
+- *Vercel:* Platform hosting frontend modern berbasis web.  
+- *Visual Studio Code:* Digunakan sebagai editor kode utama yang membantu proses pengembangan aplikasi.  
+- *Javascript:* Mengelola logika aplikasi, memberikan interaktivitas, dan mendukung integrasi dengan API.  
 
 ## Sumber Data
 
